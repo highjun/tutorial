@@ -1,0 +1,22 @@
+#wrap{
+    /* 배치 */
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0 auto;
+    /* 크기 */
+    width: 80%;
+    max-width: 1200px;
+}
+
+@media all and (min-width:768px){
+    #wrap{
+        flex-flow: row wrap;    
+    }
+}
+
+@media all and (min-width:960px){
+    #wrap{
+        position: relative; /* 인포메이션 지정 */
+        width: 90%;    
+    }
+}

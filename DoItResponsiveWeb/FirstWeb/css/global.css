@@ -1,0 +1,39 @@
+/* Font 저장 */
+@font-face {
+    font-family: 'Nanum Gothic';
+    src: url(../webfont/NanumGothic.woff);
+}
+
+:root {
+    --header-color: #2ECC71;
+    --header-color-light: #39d67c;
+    --header-color-shadow: #25ab5e;
+    --toggle-color: #2c3e50;
+    --input-color: #e65d5d;
+    --latest-post-color: #ffc40f;
+    --latest-post-color-shadow: #b98e0b;
+    --popular-post-color: #a660c2;
+    --popular-post-color-shadow: #714185;
+    --gallery-color: #e65d5d;
+    --gallery-color-shadow: #c43434;
+    --rankup-color: #219af7;
+    --rankup-color-shadow: #1974ba;
+
+    --banner1-color: rgb(230, 86, 122);
+    --banner2-color: rgb(196, 73, 104);
+
+    --footer-color: #474747;
+    --footer-color-shadow: #191919;
+
+}
+
+input {
+    border: 1px solid var(--input-color);
+    color: var(--input-color);  
+    font-family: 'Nanum Gothic';
+}
+
+body{
+    font-family: 'Nanum Gothic';
+    background-image: url("../images/s_images/body_bg.png");
+}
