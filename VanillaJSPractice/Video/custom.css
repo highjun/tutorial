@@ -1,0 +1,49 @@
+.container{
+    display: grid;
+    position: relative;
+    place-items: center;
+    height: 100vh;
+    /* video는 Absolute로 height에 안 속함 */
+}
+video{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index:-2;
+}
+.title{
+    color: var(--clr-white);
+}
+.btn{
+    position: absolute;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 2rem;
+    left: 5rem;
+    border-radius: var(--radius);
+    border: none;
+    font-size: 0.875rem;
+    width: 7rem;
+    height: 2rem;
+}
+.btn span{
+    color: var(--clr-primary-5);
+    text-transform: capitalize;
+}
+.btn .cover{
+    background-color: var(--clr-primary-5);
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    border-radius: var(--radius);
+    transition: var(--transition);
+}
+.slide .cover{
+    left:50%;
+}

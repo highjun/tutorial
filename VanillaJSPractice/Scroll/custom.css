@@ -1,0 +1,60 @@
+header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)), url(./hero-bcg.jpeg) center/cover no-repeat;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: transparent;
+    padding: 1rem 1.5rem;
+}
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.header-menu a{
+    font-size: 1rem;
+    letter-spacing: var(--spacing);
+    font-weight: bold;
+    color: var(--clr-white);
+    margin: 0 1rem;
+}
+.page{
+    height:60vh;
+}
+.banner{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.container{
+    text-align: center;
+}
+.container h2{
+    text-transform: uppercase;
+    color: var(--clr-white);
+    margin-bottom: 0.5rem;
+}
+.container p{
+    color: var(--clr-white);
+    margin-bottom: 0;
+}
+.page{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.page .second{
+    color: var(--clr-primary-5);
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    background-color: var(--clr-white);
+}
+.fixed div a{
+    color: var(--clr-black);
+}

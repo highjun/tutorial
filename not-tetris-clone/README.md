@@ -1,0 +1,11 @@
+### Not Tetris Clone
+- [x] 테트리스 도형 생성
+- [x] 도형의 조작
+    - Multi Key Event의 조작: Pressed로 해결
+- [x] 충돌에 대한 Callback
+    - 충돌에 대해서 Console에 Log
+    - 충돌 후에 새로운 Block으로 만들기: State를 통해서 Callback에서 체크
+- [ ] 영역의 크기 계산
+    - 알고리즘?
+- [ ] Cutting
+- [ ] Deletion

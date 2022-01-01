@@ -1,0 +1,45 @@
+:root{
+    --clr-gold: #c59d5f;
+}
+.container{
+    width: 50vw;
+}
+.title{
+    text-align: center;
+    margin-bottom: 3rem;
+
+}
+
+.card{
+    background-color: var(--clr-white);
+    border-radius: var(--radius);
+    box-shadow: var(--light-shadow);
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0;
+}
+.card-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.open{
+    background-color: transparent;
+    border: none;
+}
+.far{
+    font-size: 1.5rem;
+}
+.far::before{
+    color: var(--clr-gold);
+}
+.card-body{
+    margin-top: 1rem;
+    display: none;
+}
+.opened{
+    display: block;
+}
+.answer{
+    padding: .5rem 0;
+    margin-bottom: 0;
+}

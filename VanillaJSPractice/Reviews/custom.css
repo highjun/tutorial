@@ -1,0 +1,83 @@
+.title{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.line{
+    height: 0.25rem;
+    width: 5rem;
+    background-color: var(--clr-primary-5);
+    margin:auto;
+}
+.card{
+    background-color: var(--clr-white);
+    width: 50vw;
+    text-align: center;
+    padding: 1.5rem 2rem;
+}
+.img-container{
+    position: relative;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+.img-container::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: var(--clr-primary-5);
+    position: absolute;
+    border-radius: 50%;
+    top: -0.5rem;
+    right: -0.5rem;
+}
+.img-container::after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: var(--clr-white);
+    display: grid;
+    place-items: center;
+    content: "\f10e";
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: var(--clr-primary-5);
+    position: absolute;
+    border-radius: 50%;
+    top: 1rem;
+    left: 0;
+}
+.profile{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.name{
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: var(--spacing);
+}
+.position{
+    text-transform: uppercase;
+    color: var(--clr-primary-5);
+    font-size: 0.875rem;
+}
+.summary{
+    margin: 0.875rem 0;
+}
+.btn{
+    background-color: transparent;
+    border: none;
+    margin: 0 0.5rem;
+}
+.fas{
+    font-size: 1.5rem;
+}
+.fas::before{
+    color: var(--clr-primary-6);
+}
+.fas:hover::before{
+    color: var(--clr-primary-4);
+}
